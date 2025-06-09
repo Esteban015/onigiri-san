@@ -1,76 +1,163 @@
-body, html {
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: Poppins, sans-serif;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fffefb;
   color: #333;
-  background: #FDFDFD;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #ff7043;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e64a19;
 }
 
 .hero {
+  padding: 4rem 2rem;
   text-align: center;
-  padding: 4rem 1rem;
-  background: #fff3e0;
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
 }
-.hero h1 { font-size: 2.5rem; margin: 0; }
-.hero p { color: #666; margin: 0.5rem 0 2rem; }
-.hero-buttons .btn {
-  margin: 0 0.5rem;
-  padding: 0.8rem 1.5rem;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-.btn.whatsapp { background: #25D366; color: white; }
-.btn.instagram { background: #E1306C; color: white; }
 
-.menu { padding: 2rem 1rem; text-align: center; }
-.menu .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
-  gap: 1rem;
-  margin-top: 1rem;
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
-.menu .card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-.menu .price { font-size: 1.2rem; font-weight: bold; margin-top: 0.5rem; }
 
-.benefits {
-  background: white;
-  padding: 2rem 1rem;
-  text-align: center;
-}
-.benefits ul { list-style: none; padding: 0; display: inline-block; text-align: left; }
-.benefits li {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin: 0.5rem 0;
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
   color: #555;
 }
 
-.cta {
-  padding: 3rem 1rem;
-  background: #fff3e0;
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.btn.instagram {
+  background-color: #e1306c;
+  color: white;
+}
+
+.btn.whatsapp:hover {
+  background-color: #1ebe5b;
+}
+
+.btn.instagram:hover {
+  background-color: #c8235a;
+}
+
+.menu, .about, .cta {
+  padding: 3rem 2rem;
   text-align: center;
 }
-.cta .order {
-  background: #FF7043;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 50px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-decoration: none;
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #555;
+}
+
+.card .price {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #ff7043;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 1rem auto;
+  font-size: 1rem;
+  color: #444;
+}
+
+.cta {
+  background-color: #fff3e0;
+}
+
+.cta h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
 }
 
 .footer {
   text-align: center;
-  padding: 1rem;
-  color: #888;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #eee;
 }
