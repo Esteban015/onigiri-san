@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 function Home() {
   return (
     <section className="hero">
-      <h1>Bienvenidos a Onigiri SanTO</h1>
+      <h1>Bienvenidos a Onigiri San</h1>
       <p>Onigiris caseros desde Jujuy – hechos con amor, sabor y dedicación</p>
       <div className="hero-buttons">
         <a href="https://wa.me/5493880000000" className="btn whatsapp"><Phone /> Pedido WhatsApp</a>
@@ -53,7 +53,7 @@ function Productos() {
 function SobreNosotros() {
   return (
     <section className="about">
-      <h2>Sobre Nosotros ONIGIRI</h2>
+      <h2>Sobre Nosotros</h2>
       <p>
         Onigiri San es un pequeño emprendimiento casero nacido en Jujuy, Argentina. Vendemos onigiris, un snack japonés hecho a mano con arroz y rellenos deliciosos, ideal para quienes buscan una comida diferente, casera y práctica.
       </p>
@@ -74,7 +74,7 @@ function SobreNosotros() {
 function Contacto() {
   return (
     <section className="cta">
-      <h2>Contactos</h2>
+      <h2>Contacto</h2>
       <p>¿Querés hacer tu pedido o tenés dudas? Escribinos por WhatsApp o por Instagram.</p>
       <div className="hero-buttons">
         <a href="https://wa.me/5493880000000" className="btn whatsapp"><Phone /> WhatsApp</a>
@@ -88,7 +88,7 @@ function App() {
   return (
     <Router>
       <header className="navbar">
-        <div className="logo">🍙 Onigiri San Jujuy</div>
+        <div className="logo">🍙 Onigiri San</div>
         <nav className="nav-links">
           <Link to="/">Inicio</Link>
           <Link to="/productos">Nuestros Productos</Link>
@@ -105,7 +105,7 @@ function App() {
       </Routes>
 
       <footer className="footer">
-        <p>&copy; 2026 Onigiri San – Jujuy, Argentina</p>
+        <p>&copy; 2025 Onigiri San – Jujuy, Argentina</p>
       </footer>
     </Router>
   );
