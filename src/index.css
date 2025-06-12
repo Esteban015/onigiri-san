@@ -18,7 +18,7 @@ a {
 }
 
 .navbar {
-  background-color: #ffffff;
+  background-color: #ff00d4;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,14 +30,14 @@ a {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .nav-links a {
   margin-left: 1.5rem;
   font-weight: 500;
-  color: #ff7043;
+  color: #09ff00;
   transition: color 0.3s;
 }
 
@@ -46,9 +46,9 @@ a {
 }
 
 .hero {
-  padding: 4rem 2rem;
+  padding: 4rem 4rem;
   text-align: center;
-  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  background: linear-gradient(135deg, #030302, #ffe0b2);
 }
 
 .hero h1 {
@@ -81,17 +81,17 @@ a {
 }
 
 .btn.whatsapp {
-  background-color: #25d366;
+  background-color: #000d80;
   color: white;
 }
 
 .btn.instagram {
-  background-color: #e1306c;
+  background-color: #f04400;
   color: white;
 }
 
 .btn.whatsapp:hover {
-  background-color: #1ebe5b;
+  background-color: #029138;
 }
 
 .btn.instagram:hover {
@@ -159,5 +159,5 @@ a {
   padding: 2rem;
   font-size: 0.9rem;
   color: #777;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #550047;
 }
