@@ -86,7 +86,7 @@ a {
 }
 
 .btn.instagram {
-  background-color: #ffffff;
+  background-color: #e1306c;
   color: white;
 }
 
@@ -135,7 +135,7 @@ a {
 .card .price {
   font-weight: bold;
   margin-top: 0.5rem;
-  color: #200079;
+  color: #ff7043;
 }
 
 .about p {
@@ -146,7 +146,7 @@ a {
 }
 
 .cta {
-  background-color: #6b522a;
+  background-color: #fff3e0;
 }
 
 .cta h2 {
@@ -159,5 +159,5 @@ a {
   padding: 2rem;
   font-size: 0.9rem;
   color: #777;
-  border-top: 1px solid #ff0000;
+  border-top: 1px solid #eee;
 }
