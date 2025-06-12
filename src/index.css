@@ -135,7 +135,7 @@ a {
 .card .price {
   font-weight: bold;
   margin-top: 0.5rem;
-  color: #ff7043;
+  color: #200079;
 }
 
 .about p {
@@ -146,7 +146,7 @@ a {
 }
 
 .cta {
-  background-color: #fff3e0;
+  background-color: #6b522a;
 }
 
 .cta h2 {
@@ -159,5 +159,5 @@ a {
   padding: 2rem;
   font-size: 0.9rem;
   color: #777;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ff0000;
 }
